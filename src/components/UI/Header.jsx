@@ -17,8 +17,8 @@ function Header() {
             <div id='header' className='flex items-center pt-6 p-8'>
                 <img className='w-30 h-10 ml-10' src={darazLogo} alt="Logo" />
                 <div className='flex justify-center items-center'>
-                    <input id='input-bar' className='bg-white w-2xl ml-16 h-12 p-2' type="text" placeholder='Search in Daraz' />
-                    <img id='search-icon' className='w-12 h-12 p-3' src={searchIcon} alt="search-icon" />
+                    <input id='input-bar' className='bg-white w-2xl ml-14 h-11 p-2' type="text" placeholder='Search in Daraz' />
+                    <img id='search-icon' className='w-12 h-11 p-3' src={searchIcon} alt="search-icon" />
                 </div>
                 <img className='w-6 h-6 color-white ml-4' src={cartIcon} alt="cart-icon" />
             </div>
