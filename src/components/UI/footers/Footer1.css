@@ -1,0 +1,16 @@
+.footer1{
+    border: 2px solid red;
+    display: flex;
+}
+.footer1 h4 {
+    color: #0f136d;
+}
+.footer1 ul {
+    font-size: small;
+    color: #0f136d;
+    list-style: none;
+}
+.footer1 ul :hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -4,8 +4,8 @@ function SignUp() {
             <form className="border border-amber-600 w-100 h-90 flex flex-col items-center justify-between">
                 <h2>Sign Up</h2>
                 <div className="border flex gap-1 p-2">
-                    <div className="border">PK +92</div>
-                    <input className="border" type="phone" placeholder="Please enter your phone number" />
+                    <div className="border h-10">PK +92</div>
+                    <input className="border w-70 h-10" type="phone" placeholder="Please enter your phone number" />
                 </div>
                 <div>
                     <input type="checkbox" name="terms" id="terms" />
