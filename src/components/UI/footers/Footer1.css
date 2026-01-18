@@ -1,6 +1,10 @@
-/* .footer1{
-    border: 2px solid red;
+.footer1{
+    /* border: 1px solid red; */
     display: flex;
+    justify-content: space-around;
+    align-items: start;
+    background-color: #f4f4f6;
+    padding: 20px;
 }
 .footer1 h4 {
     color: #0f136d;
@@ -13,4 +17,14 @@
 .footer1 ul :hover {
     cursor: pointer;
     text-decoration: underline;
-} */
+}
+.footer-l{
+    width: 40%;
+    /* border: 1px solid greenyellow; */
+}
+.footer-r{
+    width: 60%;
+}
+.down-links {
+    cursor: pointer;
+}

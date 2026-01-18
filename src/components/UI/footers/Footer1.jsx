@@ -8,8 +8,8 @@ function Footer1() {
     return (
         <>
             <div className='footer1'>
-                <div className='flex'>
-                    <div className='border'>
+                <div className='footer-l flex justify-around'>
+                    <div>
                         <h4>Customer Care</h4>
                         <ul>
                             <li>Help Center</li>
@@ -22,7 +22,7 @@ function Footer1() {
                             <li>Daraz Pick up Points</li>
                         </ul>
                     </div>
-                    <div className='border'>
+                    <div>
                         <h4>Daraz</h4>
                         <ul>
                             <li>About Us</li>
@@ -42,19 +42,19 @@ function Footer1() {
                         </ul>
                     </div>
                 </div>
-                <div>
-                    <div className='flex'>
-                        <img src={appLogo} alt="app-logo" />
+                <div className="footer-r flex justify-center gap-6 mt-4">
+                    <div className='flex gap-2.5'>
+                        <img src={appLogo} alt="app-logo" className='w-11 h-11' />
                         <div>
                             <h3 className='text-[#f85606]'>Happy Shopping</h3>
                             <p className='text-sm text-[#0f136d]'>Download App</p>
                         </div>
                     </div>
                     <div>
-                        <div>
+                        <div className='down-links grid grid-rows-2 grid-cols-2 gap-2'>
                             <img src={appStore} alt="app-store" />
-                            <img src={playStore} alt="app-store" />
-                            <img src={appGallery} alt="app-store" />
+                            <img src={playStore} alt="play-store" />
+                            <img src={appGallery} alt="gallery-store" />
                         </div>
                     </div>
                 </div>
