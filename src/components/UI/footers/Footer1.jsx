@@ -7,7 +7,7 @@ import appGallery from '../../../assets/app-gallery.png'
 function Footer1() {
     return (
         <>
-            <div className='footer1'>
+            <div className='footer-1'>
                 <div className='footer-l flex justify-around'>
                     <div>
                         <h4>Customer Care</h4>

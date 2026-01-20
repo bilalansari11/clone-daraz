@@ -1,4 +1,4 @@
-.footer1{
+.footer-1{
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-around;
@@ -6,15 +6,15 @@
     background-color: #f4f4f6;
     padding: 20px;
 }
-.footer1 h4 {
+.footer-1 h4 {
     color: #0f136d;
 }
-.footer1 ul {
+.footer-1 ul {
     font-size: small;
     color: #0f136d;
     list-style: none;
 }
-.footer1 ul :hover {
+.footer-1 ul :hover {
     cursor: pointer;
     text-decoration: underline;
 }
