@@ -15,7 +15,7 @@ import Verified from '../../../assets/verified.png';
 function Footer2() {
     return (
         <>
-            <div className='footer-2 flex gap-12'>
+            <div className='footer-2 flex gap-16'>
                 <div>
                     <h4 className='mb-4'>Payment Methods</h4>
                     <div className='grid grid-rows-2 grid-cols-6 gap-1'>

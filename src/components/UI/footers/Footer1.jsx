@@ -8,7 +8,7 @@ function Footer1() {
     return (
         <>
             <div className='footer-1'>
-                <div className='footer-l flex justify-around'>
+                <div className='footer-l flex justify-between'>
                     <div>
                         <h4>Customer Care</h4>
                         <ul>
